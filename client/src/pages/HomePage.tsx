@@ -1,7 +1,5 @@
 import FormComponent from "@/components/forms/FormComponent"
 
-const features = [{}];
-
 function HomePage() {
     return (
         <div className="min-h-screen bg-gradient-to-br from-dark to-gray-900">
@@ -17,21 +15,6 @@ function HomePage() {
                             The ultimate real-time collaboration platform for developers and teams.
                             Code, draw, and communicate in one seamless workspace.
                         </p>
-                        
-                        {/* Feature Grid */}
-                        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2">
-                            {features.map((feature, index) => (
-                                <div key={index} className="flex items-start space-x-4 rounded-xl bg-darkHover/50 p-4 backdrop-blur-sm">
-                                    <div className="flex-shrink-0">
-                                        {feature.icon}
-                                    </div>
-                                    <div>
-                                        <h3 className="text-lg font-medium text-white">{feature.title}</h3>
-                                        <p className="mt-1 text-sm text-gray-400">{feature.description}</p>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
                     </div>
                     
                     {/* Right Column - Form */}
