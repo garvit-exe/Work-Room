@@ -105,7 +105,7 @@ You can view the live preview of the project [here](https://work-room-live.verce
    ```bash
    http://localhost:5173/
    ```
-### Method 2: Docker Installation
+<!-- ### Method 2: Docker Installation
 
 1. **Install Docker Desktop:**
 
@@ -139,6 +139,7 @@ You can view the live preview of the project [here](https://work-room-live.verce
    ```bash
    http://localhost:5173/
    ```
+-->
 
 ## 🔮 Features for Next Release
 
