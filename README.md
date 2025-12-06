@@ -4,6 +4,8 @@ A collaborative, real-time workspace where teams can work together seamlessly. W
 
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fgarvit-exe%2Fwork-room&label=Repo%20Views&countColor=%2337d67a&labelStyle=upper)
 
+> 🔒 **Security Notice:** This project is **NOT affected** by CVE-2025-55182 & CVE-2025-66478 (React Server Components vulnerabilities). We use React 18.2.0, not React 19.x or Next.js. See [SECURITY.md](SECURITY.md) for details.
+
 ## ✨ Features
 
 ### 🚀 Real-time Collaboration
@@ -152,6 +154,10 @@ We welcome contributions to make Work Room even better! Follow the [contribution
 ## 🌟 Support Us
 
 If you find this helpful or valuable, please consider 🌟 starring the repository. It helps us gain visibility and encourages further development.
+
+## 🔒 Security
+
+We take security seriously. For information about security policies, vulnerability reporting, and recent security advisories, please see our [Security Policy](SECURITY.md).
 
 ## 🧾 License
 
